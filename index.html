@@ -12,12 +12,53 @@
 
 <body>
 
-    <h1>Below is a gif of...</h1>
-    <input type="text" id="input">
-    <button onclick="getGif()">Find Gif</button>
-    <div class="gifFrame">
-        <img src="" alt="" id="gif">
-    </div>
+    <body>
+
+        <h1>Ask the crystal ball a question...</h1>
+
+        <div class="gallery">
+
+            <div class="card" id="shouldI" onclick="showSearchBar()">
+
+                Should I...
+
+            </div>
+
+            <div class="card" id="willI" onclick="showSearchBar()">
+
+                Will I...
+
+            </div>
+
+            <div class="card" id="willThey" onclick="showSearchBar()">
+
+                Will they...
+
+            </div>
+
+        </div>
+
+        <header class="questionFrame" id="questionFrame">
+
+            <p></p>
+
+            <p></p>
+
+        </header>
+
+
+
+        <div class="gifFrame">
+
+            <img src="" alt="" id="gif">
+
+            <h2>gif</h2>
+
+        </div>
+
+        <script src="app.js"></script>
+
+    </body>
     <script src="app.js"></script>
 </body>
 

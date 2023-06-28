@@ -1,8 +1,129 @@
-.gifFrame {
-    height: 500px;
-    width: 500px;
+h1 {
+
     display: flex;
-    align-content: center;
+
     justify-content: center;
-    background-color: aqua;
+
+    margin: 45px;
+
+}
+
+
+
+.gallery {
+
+    display: flex;
+
+    gap: 4px;
+
+    margin: 10px 20%
+}
+
+
+
+.card {
+
+    position: relative;
+
+    left: 0px;
+
+    width: 80px;
+
+    border-radius: 4px;
+
+    padding: 8px;
+
+    height: 160px;
+
+    background-color: white;
+
+    transition: 0.4s ease-in-out;
+
+    flex: 1px;
+
+
+
+}
+
+
+
+.card:nth-child(1) {
+
+    background-color: red;
+
+}
+
+.card:nth-child(2) {
+
+    background-color: orange;
+
+}
+
+
+
+.card:nth-child(3) {
+
+    background-color: yellow;
+
+}
+
+.card:nth-child(4) {
+
+    background-color: green;
+
+}
+
+
+
+.card:hover {
+
+    flex: 3;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+}
+
+
+
+.questionFrame {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center
+}
+
+
+
+.gifFrame {
+
+    height: 300px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background-color: yellow;
+
+    margin: 20px 20%
+}
+
+
+
+p {
+
+    background-color: cyan;
+
+}
+
+
+
+div {
+
+    background-color: blue
 }
