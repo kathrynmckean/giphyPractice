@@ -1,26 +1,45 @@
+function willI() {
+    let note = document.getElementById('willI');
+    console.log(note.textContent);
+
+    let promptChange = document.getElementById('prompt');
+    promptChange.textContent = note.textContent;
+    console.log("success")
+}
 function willThey() {
+    let note = document.getElementById('willThey');
+    console.log(note.textContent);
 
-    let title = document.createElement("p")
+    let promptChange = document.getElementById('prompt');
+    promptChange.textContent = note.textContent;
+    console.log("success")
+}
 
-    title.textContent = "will they..."
+function handlePrompt(choice) {
+    showSearchBar();
+    if (choice === "should I") {
+        let note = document.getElementById('shouldI');
+        console.log(note.textContent);
 
-
-
-    const questionFrame = document.getElementById("questionFrame")
-
-    questionFrame.replaceChild(title, questionFrame.firstElementChild);
-
-
-
-
-
+        let promptChange = document.getElementById('prompt');
+        promptChange.textContent = note.textContent;
+        console.log("success")
+    } else if (choice === "will I") {
+        console.log("will i")
+    } else if (choice === "will they") {
+        console.log("will they");
+    } else {
+        // gracefully exit function
+        return;
+    }
 }
 
 
 
-let pTwo = document.getElementById("willThey")
 
-pTwo.addEventListener("click", willThey)
+// let pTwo = document.getElementById("willThey")
+
+// pTwo.addEventListener("click", willThey)
 
 
 
