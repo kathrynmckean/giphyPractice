@@ -48,7 +48,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px 20%
+    margin: 10px 20%;
+    flex-direction: row;
 }
 
 .gifFrame {
@@ -60,6 +61,6 @@ header {
     margin: 10px 20%
 }
 
-p {
-    background-color: cyan;
+#prompt {
+    margin: 10px;
 }

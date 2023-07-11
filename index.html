@@ -13,25 +13,32 @@
 <body>
 
     <body>
+
         <header class="header">
+
             <h1>Ask the crystal ball a question...</h1>
+
             <h2>Starting with one of these prompts:</h2>
+
         </header>
+
         <div class="ContentWrapper">
+
             <div class="gallery">
+
                 <div class="card" id="shouldI" onclick="handlePrompt('should I')">
 
                     Should I...
 
                 </div>
 
-                <div class="card" id="willI" onclick="showSearchBar();willI()">
+                <div class="card" id="willI" onclick="handlePrompt('will I')">
 
                     Will I...
 
                 </div>
 
-                <div class="card" id="willThey" onclick="showSearchBar();willThey()">
+                <div class="card" id="willThey" onclick="handlePrompt('will they')">
 
                     Will they...
 
@@ -39,24 +46,19 @@
 
             </div>
 
-            <header class="questionFrame" id="questionFrame">
+            <div class="questionFrame" id="questionFrame">
+
                 <p id="prompt"></p>
-                <p></p>
-            </header>
+                <div id="searchBar"></div>
 
-
+            </div>
 
             <div class="gifFrame">
 
                 <img src="" alt="" id="gif">
 
-                <h2>gif</h2>
-
             </div>
         </div>
-
-        <!-- <script src="app.js"></script> -->
-
     </body>
     <script src="app.js"></script>
 </body>
