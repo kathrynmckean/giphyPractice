@@ -1,9 +1,21 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+
+    color: white;
+    background: radial-gradient(circle at 50% 60%, #8590d3, #1e013c);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
 header {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 20px;
-
 }
 
 .gallery {
@@ -26,16 +38,17 @@ header {
     align-items: center;
 }
 
+
 .card:nth-child(1) {
-    background-color: red;
+    background-color: rgb(44, 19, 99);
 }
 
 .card:nth-child(2) {
-    background-color: orange;
+    background-color: rgb(44, 19, 99);
 }
 
 .card:nth-child(3) {
-    background-color: yellow;
+    background-color: rgb(44, 19, 99);
 }
 
 .card:hover {
@@ -57,8 +70,16 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: yellow;
-    margin: 10px 20%
+    margin: 10px 20%;
+    /* background-color: purple; */
+    /* background: radial-gradient(#e66465, #9198e5); */
+
+}
+
+.gifBorder {
+    height: 100%;
+    width: 100%;
+    background-color: blue;
 }
 
 #prompt {

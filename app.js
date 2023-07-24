@@ -14,7 +14,7 @@ function handlePrompt(choice) {
         promptChange.textContent = note.textContent;
         console.log("success")
     } else if (choice === "will they") {
-        let note = document.getElementById('shouldI');
+        let note = document.getElementById('willThey');
         console.log(note.textContent);
 
         let promptChange = document.getElementById('prompt');
@@ -82,4 +82,8 @@ let showSearchBar = (string, el) => {
     const questionFrame = document.getElementById("questionFrame")
 
     questionFrame.replaceChild(search, questionFrame.lastElementChild);
+}
+
+let fortune = () => {
+    // this is the yes, no, maybe response 
 }
